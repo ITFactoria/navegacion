@@ -1,0 +1,53 @@
+[
+    {
+        "icon": "american-football",
+        "name": "pagina2",
+        "redirectTo": "/alert"
+    },
+    {
+        "icon": "logo-apple",
+        "name": "Alerts",
+        "redirectTo": "/alert"
+    }, {
+        "icon": "barbell-outline",
+        "name": "action-sheet",
+        "redirectTo": "/action-sheet"
+    },
+    {
+        "icon": "people-circle-outline",
+        "name": "Avatar/Chips",
+        "redirectTo": "/avatar"
+    },
+    {
+        "icon": "alarm-outline",
+        "name": "DateTime",
+        "redirectTo": "/datetime"
+    },
+    {
+        "icon": "add-circle-outline",
+        "name": "Fab",
+        "redirectTo": "/fab"
+    },
+    {
+        "icon": "grid-outline",
+        "name": "Grid",
+        "redirectTo": "/grid"
+    },
+    {
+        "icon": "radio-button-on-outline",
+        "name": "Buttons",
+        "redirectTo": "/button"
+    },
+    {
+        "icon": "duplicate-outline",
+        "name": "Modal",
+        "redirectTo": "/modal"
+    },
+    {
+        "icon": "layers-outline",
+        "name": "Popover",
+        "redirectTo": "/popover"
+    }
+
+
+]

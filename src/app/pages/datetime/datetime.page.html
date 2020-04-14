@@ -1,0 +1,44 @@
+<app-header [titulo]="titulo"></app-header>
+<ion-content>
+  <h1>Date Time Component</h1>
+
+  <ion-content>
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Fecha Normal</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Fecha de Comida</ion-label>
+        <ion-datetime value="{{fechaComida | date:'yyyy-MM-dd'}}" (ionChange)="cambioFecha($event)">
+        </ion-datetime>
+      </ion-item>
+
+      <ion-list-header>
+        <ion-label>Restricciones</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Min y Max</ion-label>
+        <ion-datetime 
+          display-format="YYYY MMMM DD"
+          min ="2019-01-01" 
+          max ="2019-12-31" 
+          
+          (ionChange)="cambioFecha($event)">
+        </ion-datetime>
+      </ion-item>
+      <ion-item>
+        <ion-label>Custom Date</ion-label>
+        <ion-datetime 
+          [pickerOptions] = "customPickerOptions"
+          [(ngModel)]="customDate"
+
+          >
+        </ion-datetime>
+      </ion-item>
+
+
+
+
+    </ion-list>
+
+  </ion-content>
